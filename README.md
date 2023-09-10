@@ -2,74 +2,8 @@
 making a webpage of a simple calculator with basic operators.
 
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <style>
-        body {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 50px;letter-spacing: 10px;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            
-        }
-        .row{display: flex;
-            flex-wrap: row wrap;justify-content: center;
-        }
-        input[type="text"] {
-            padding: 10px;
-            margin: 10px;
-            border-radius: 5px;
-            border: none;
-            box-shadow: 0 0 5px rgba(0,0,0,0.2);
-            font-size: 24px;
-            text-align: right;
-            width: 630px;
-            display:inline;
-            justify-content: center;
-            flex-wrap: wrap;
-            
-
-        }
-        input[type="submit"] {
-            padding: 10px 50px;
-            margin: 10px;
-            border-radius: 5px;
-            border: none;
-            background-color: #4CAF50;
-            color: #fff;
-            font-size: 24px;
-            cursor: pointer;
-            text-align:justify;
-
-        }
-        #result {
-            padding: 10px ;
-            margin: 10px;
-            border-radius: 5px;
-            border: none;
-            box-shadow: 0 0 5px rgba(0,0,0,0.2);
-            font-size: 24px;
-            text-align: right;
-        }
-    </style>
-    </head>
-    <body>
+    
+    
     <h1>Calculator</h1>
     <div class="container">
         <input type="text" id="num1" >
