@@ -1,8 +1,10 @@
 # simplecaculator
 making a webpage of a simple calculator with basic operators.
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
@@ -66,8 +68,8 @@ making a webpage of a simple calculator with basic operators.
             text-align: right;
         }
     </style>
-</head>
-<body>
+    </head>
+    <body>
     <h1>Calculator</h1>
     <div class="container">
         <input type="text" id="num1" >
@@ -119,5 +121,5 @@ making a webpage of a simple calculator with basic operators.
             document.getElementById("result").innerHTML = "0";            
         }
     </script>
-</body>
-</html>
+    </body>
+    </html>
